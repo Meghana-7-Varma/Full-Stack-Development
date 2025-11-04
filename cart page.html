@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Sweet Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.cart {
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cart h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.item-info p {
+    margin-bottom: 5px;
+}
+
+.cart-summary {
+    text-align: right;
+}
+
+.cart-summary p {
+    font-size: 1.2em;
+}
+
+.cart-summary .total-price {
+    font-weight: bold;
+}
+
+.checkout-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.checkout-btn:hover {
+    background-color: #555;
+}
+
+.remove-item {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.remove-item:hover {
+    background-color: #ff483d;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Shop</h1>
+        <!-- Navigation links if needed -->
+    </header>
+
+    <main>
+        <div class="cart">
+            <h2>Your  Sweet Cart</h2>
+            <div class="cart-items">
+                <!-- Example item, repeat for each item in cart -->
+                <div class="cart-item">
+                    <img src="laddu.jpg" alt="Product Image">
+                    <div class="item-info">
+                        <h3>Laddu</h3>
+                        <form action="product page.html" method="POST">
+                        <p class="price">$50</p>
+                        <p>Quantity: < input type="number" min="1" value="1"></p>
+                        < button class="remove-item">Remove</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <p>Total: <span class="total-price">$50</span></p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <!-- Optional: JavaScript for interactions -->
+</body>
+</html>

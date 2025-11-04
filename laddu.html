@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Sweet Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body{
+      background-image : url("product.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size : 1300px 700px;
+   }
+   h1{
+      color:rgb(188, 26, 105)
+   }
+   h3{
+      color:rgb(53, 3, 20)
+   }
+   h4{
+      color:hotpink;
+   }
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    background-color: #cccd91;
+    padding: 20px;
+}
+
+.product img {
+    max-width: 60%;
+    height: auto;
+    margin-right: 2px;
+}
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #555;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Shop</h1>
+        <!-- Navigation links if needed -->
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="laddu.jpg" alt="Laddu">
+            <div class="product-info">
+                <h2>Laddu</h2>
+                <p class="price">$50</p>
+                <p>Description of the product goes here.</p>
+                <form action="cart page.html" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+        </main> 
+        <main>
+        <div class="product">
+            <img src="palakova.jpg" alt="Laddu">
+            <div class="product-info">
+                <h2>Palakova</h2>
+                <p class="price">$100</p>
+                <p>Description of the product goes here.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main> 
+    <main>
+        <div class="product">
+            <img src="kaja.jpg" alt="Kakinada kaja">
+            <div class="product-info">
+                <h2>Kakinada Kaja</h2>
+                <p class="price">$150</p>
+                <p>Description of the product goes here.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main> 
+    <main>
+        <div class="product">
+            <img src="kajjikayalu.jpg" alt="kajjikayalu">
+            <div class="product-info">
+                <h2>Kajjikayalu</h2>
+                <p class="price">$100</p>
+                <p>Description of the product goes here.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="product">
+            <img src="putharekulu.jpg" alt="Putharekulu">
+            <div class="product-info">
+                <h2>Putharekulu</h2>
+                <p class="price">$100</p>
+                <p>Description of the product goes here.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="product">
+            <img src="rasagulla.jpg" alt="Rasagulla">
+            <div class="product-info">
+                <h2>Rasagulla</h2>
+                <p class="price">$100</p>
+                <p>Description of the product goes here.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="product">
+            <img src="sunnundalu.jpg" alt="sunnundalu">
+            <div class="product-info">
+                <h2>Sunnundalu</h2>
+                <p class="price">$100</p>
+                <p>sunnundalu is the best sweet.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="product">
+            <img src="ariselu.jpg" alt="ariselu">
+            <div class="product-info">
+                <h2>Ariselu</h2>
+                <p class="price">$100</p>
+                <p>sunnundalu is the best sweet.</p>
+                <form action="checkout_process.php" method="POST">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <center>\
+    <form action="sweet shop.html" method="POST">
+        <button type="submit">BACK</button>
+    </form>
+    </center>
+    <footer>
+        <p>&copy; 2024 Sweet Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

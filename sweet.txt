@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>HTML5-Week  Example</title>
+    </head>
+    <body>
+        <form action="/">
+             Select a week  : 
+               <input type="week">
+
+
+        </form>
+    </body>
+</html>

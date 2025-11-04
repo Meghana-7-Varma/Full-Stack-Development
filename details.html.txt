@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andhra Sweets Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+        .sweets-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sweets-list li {
+            margin-bottom: 15px;
+        }
+        .sweets-list img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Andhra Sweets Shop</h1>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to Andhra Sweets Shop, your go-to destination for authentic Andhra sweets. Our shop has been serving the community with traditional sweets made from high-quality ingredients.</p>
+        </section>
+
+        <section>
+            <h2>Our Specialties</h2>
+            <ul class="sweets-list">
+                <li>
+                    <img src="sweets/sweet1.jpg" alt="Sweet 1">
+                    <h3>Jaggery Halwa</h3>
+                    <p>Deliciously sweet and rich, made with jaggery and ghee.</p>
+                    <p><strong>Price:</strong> $10 per pound</p>
+                </li>
+                <li>
+                    <img src="sweets/sweet2.jpg" alt="Sweet 2">
+                    <h3>Gulab Jamun</h3>
+                    <p>Soft, spongy, and soaked in cardamom syrup.</p>
+                    <p><strong>Price:</strong> $15 per dozen</p>
+                </li>
+                <!-- Add more sweets as needed -->
+            </ul>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> 123 Sweet Lane, Hyderabad, Andhra Pradesh</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@andhrasweets.com</p>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Andhra Sweets Shop. All rights reserved.</p>
+    </div>
+</body>
+</html>

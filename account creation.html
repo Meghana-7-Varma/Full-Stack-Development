@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - Sweet Shop</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8e814f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(60, 8%, 93%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-size: 1.5em;
+}
+</style>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="sweets2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+<body>
+  <div class="container">
+    <form action="home.html">
+      <h1>Register Form</h1>
+      <div class="input-group">
+        <label for="Firstname">Firstname</label>
+        <input type="text"  name="Lastname" required>
+      </div>
+      <div class="input-group">
+        <label for="Lastname">Lastname</label>
+        <input type="text"  name="Lastname" required>
+      </div>
+      <div style="padding-bottom: 18px;">Date of birth<span style="color: rgb(22, 64, 201);">*</span><br/>
+        <input type="date">
+        </div>        
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="Gender">Gender</label><br>
+        <input type="radio" name="M">male 
+        <input type="radio" name="F"> Female 
+        <input type="radio" name="O"> other 
+</div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-group">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+        <div class="input-group">
+        <h4> Select Country:
+                 <select name="my state">
+                    <option value="India">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="Japan">JAPAN</option>
+                    <option value="Russia">RUSSIA</option>
+                    <option value="Dubai">DUBAI</option>
+                    <option value="Korea">KOREA</option>
+                 </select> </h4>
+        </div>
+        <div style="padding-bottom: 10px;"> Address <br/>
+            <textarea id="data_10" false name="data_10" style="max-width : 250px;" rows="4"
+            class="form-control"></textarea>
+            </div>            
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>  
